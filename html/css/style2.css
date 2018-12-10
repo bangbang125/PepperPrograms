@@ -1,0 +1,53 @@
+@CHARSET "UTF-8";
+
+@font-face {
+        font-family: 'font1';
+        src: url(logotypejp_mp_m_1.1.ttf);
+    }
+
+
+.btn {
+  border: 5px solid #DDD;
+  font-size: 4em;
+  border-radius: 20px;
+  text-align: center;
+  color: #FFF;
+  padding: 25px;
+  vertical-align: middle;
+  width: 25%;
+}
+
+.btn1 {
+  background: #ff3030;
+  margin-bottom: : 75px;
+}
+
+.btn2 {
+  background: #9830FF;
+  margin-top: 75px;
+}
+
+.btn3 {
+  background: #C9FF30;
+  margin-top: 75px;
+}
+
+.btn4 {
+  background: #42FF30;
+  margin-top: 75px;
+}
+
+t1{
+  color: black;
+  font-family:'font1';
+
+}
+
+body {
+  position: absolute;
+  top: 853.5px;
+  left: 509.5px;
+  font-size: 30px;
+  background-image: url(Smain.jpg);
+
+}

@@ -1,0 +1,56 @@
+@CHARSET "UTF-8";
+
+@font-face {
+        font-family: 'font1';
+        src: url(logotypejp_mp_m_1.1.ttf);
+    }
+.btn {
+  font-family:'font1';
+  border: 5px solid #DDD;
+  font-size: 3.5em;
+  border-radius: 20px;
+  text-align: center;
+  color: #e0ebf5;
+  background-color: #CF7200;
+  padding: 25px;
+  vertical-align: middle;
+  width: 50%;
+  display:  block;
+  margin-top: 100px;
+}
+
+.btn:active{
+  font-family:'font1';
+    padding: 25px;
+    background-color:#A75C00;
+    color:#e0ebf5;
+
+}
+
+.btn2 {
+  font-family:'font1';
+  border: 5px solid #DDD;
+  font-size: 4em;
+  border-radius: 20px;
+  text-align: center;
+  color: #e0ebf5;
+  background-color: #04B404;
+  padding: 25px;
+  vertical-align: middle;
+  width: 25%;
+  display:  block;
+  margin-top: 50px;
+}
+
+.btn2:active{
+  font-family:'font1';
+    padding: 25px;
+    background-color:#0B3B0B;
+    color:#e0ebf5;
+
+}
+
+
+body{
+  background-image: url(topback.jpg);
+}

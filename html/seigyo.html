@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+  <html lang="ja">
+    <head>
+    <meta charset="UTF-8">
+    <title>Test02 JS⇒Pepper</title>
+    <link type="text/css" rel="stylesheet" href="./css/seigyo.css" />
+    <script src="/libs/qimessaging/1.0/qimessaging.js"></script>
+    <script>
+    var session = new QiSession();
+    function btn1() {
+      session.service("ALMemory").done(function (ALMemory) {
+        ALMemory.raiseEvent("seigyo/fromJs1", "とは");
+      });
+    }
+
+    function btn2() {
+      session.service("ALMemory").done(function (ALMemory) {
+        ALMemory.raiseEvent("seigyo/fromJs2", "科目");
+      });
+    }
+
+    function btn3() {
+      session.service("ALMemory").done(function (ALMemory) {
+       ALMemory.raiseEvent("seigyo/fromJs3", "実習");
+      });
+    }
+
+    function btn4() {
+      session.service("ALMemory").done(function (ALMemory) {
+       ALMemory.raiseEvent("seigyo/fromJs4", "進学と就職");
+      });
+    }
+
+    function btn5() {
+      session.service("ALMemory").done(function (ALMemory) {
+       ALMemory.raiseEvent("seigyo/fromJs5", "戻るボタン");
+      });
+    }
+
+    </script>
+    </head>
+
+    <body>
+
+      <button class="btn" onclick="btn1();">システム制御情報工学科とは</button>
+      <button class="btn" onclick="btn2();">学ぶ科目、分野</button>
+      <button class="btn" onclick="btn3();">融合科目と実習</button>
+      <button class="btn" onclick="btn4();">進学と就職</button>
+      <button class="btn2" onclick="btn5();">戻る</button>
+    </body>
+  </html>

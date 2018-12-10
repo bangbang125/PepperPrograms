@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+  <html lang="ja">
+    <head>
+    <meta charset="UTF-8">
+    <title>Test02 JS⇒Pepper</title>
+    <link type="text/css" rel="stylesheet" href="./css/stylemain.css" />
+    <script src="/libs/qimessaging/1.0/qimessaging.js"></script>
+    <script>
+    var session = new QiSession();
+    function btn1() {
+      session.service("ALMemory").done(function (ALMemory) {
+        ALMemory.raiseEvent("index/fromJs100", "スタート");
+      });
+    }
+
+    </script>
+    </head>
+
+    <body>
+      <button class="btn btn1" onclick="btn1();">はじめる！</button>
+    </body>
+  </html>

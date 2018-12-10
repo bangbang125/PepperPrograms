@@ -1,0 +1,368 @@
+@CHARSET "UTF-8";
+
+@font-face {
+        font-family: 'font1';
+        src: url(logotypejp_mp_m_1.1.ttf);
+    }
+
+@font-face {
+        font-family: 'font2';
+        src: url(hkkaiiw.ttf);
+    }
+
+.ex{
+    font-size: 5em;
+      font-family:'font2';
+
+}
+.btn {
+  border: 5px solid #DDD;
+  font-size: 4em;
+  border-radius: 20px;
+  text-align: center;
+  color: #FFF;
+  padding: 25px;
+  vertical-align: middle;
+  width: 50%;
+  display:  block;
+}
+
+.btn1:active{
+    padding: 25px;
+    background-color:#C02424;
+    color:#e0ebf5;
+
+
+}
+
+.btn2:active{
+    padding: 25px;
+    background-color:#7725C9;
+    color:#e0ebf5;
+}
+
+.btn3:active{
+    padding: 25px;
+    background-color:#ADDD2A;
+    color:#e0ebf5;
+}
+
+.btn4:active{
+    padding: 25px;
+    background-color:#36C929;
+    color:#e0ebf5;
+}
+
+.btn5:active{
+    padding: 25px;
+    background-color:#0A1D30;
+    color:#e0ebf5;
+}
+
+.btn6:active{
+    padding: 25px;
+    background-color:#402B15;
+    color:#e0ebf5;
+}
+
+.bbtn {
+  float: left;
+  border: 5px solid #DDD;
+  font-size: 4em;
+  border-radius: 20px;
+  text-align: center;
+  color: #FFF;
+  padding: 25px;
+  vertical-align: middle;
+  width: 20%;
+  margin-right: 175px;
+  position: absolute;
+  top: 930px;
+  left: 5px;
+}
+
+.btnex {
+  font-family:'font1';
+  background: #654321;
+  float: left;
+  border: 5px solid #DDD;
+  font-size: 4em;
+  border-radius: 20px;
+  text-align: center;
+  color: #FFF;
+  padding: 25px;
+  vertical-align: middle;
+  width: 20%;
+  margin-right: 175px;
+  position: absolute;
+  top: 930px;
+  left: 525px;
+}
+
+.btsong {
+  font-family:'font1';
+  background: #2E2E2E;
+  float: left;
+  border: 5px solid #DDD;
+  font-size: 3em;
+  border-radius: 20px;
+  text-align: center;
+  color: #FFF;
+  padding: 25px;
+  vertical-align: middle;
+  width: 10%;
+  margin-right: 175px;
+  position: absolute;
+  top: 5px;
+  left: 700px;
+}
+
+.btn1 {
+  font-family:'font1';
+  background: #ff3030;
+  position: absolute;
+  top: 150px;
+  left: 5px;
+  z-index: 1;
+}
+
+      .btn11 {
+        font-family:'font1';
+        background: #ff3030;
+        position: absolute;
+        top: 150px;
+        left: 5px;
+          z-index: 0;
+      }
+
+      .btn12 {
+        font-family:'font1';
+        background: #ff3030;
+        position: absolute;
+        top: 350px;
+        left: 5px;
+        z-index: 0;
+      }
+
+      .btn13 {
+        font-family:'font1';
+        background: #ff3030;
+        position: absolute;
+        top: 550px;
+        left: 5px;
+        z-index: 0;
+      }
+
+      .btn14 {
+        font-family:'font1';
+        background: #ff3030;
+        position: absolute;
+        top: 750px;
+        left: 5px;
+        z-index: 0;
+      }
+
+      .btn15 {
+        font-family:'font1';
+        background: #123456;
+        position: absolute;
+        z-index: 0;
+      }
+
+
+
+.btn2 {
+  font-family:'font1';
+  background: #9830FF;
+  position: absolute;
+  top: 350px;
+  left: 5px;
+    z-index: 1;
+}
+
+      .btn21 {
+        font-family:'font1';
+        background: #9830FF;
+        position: absolute;
+        top: 150px;
+        left: 5px;
+        z-index: 0;
+      }
+
+      .btn22 {
+        font-family:'font1';
+        background: #9830FF;
+        position: absolute;
+        top: 350px;
+        left: 5px;
+        z-index: 0;
+      }
+
+      .btn23 {
+        font-family:'font1';
+        background: #9830FF;
+        position: absolute;
+        top: 550px;
+        left: 5px;
+        z-index: 0;
+      }
+
+      .btn24 {
+        font-family:'font1';
+        background: #9830FF;
+        position: absolute;
+        top: 750px;
+        left: 5px;
+        z-index: 0;
+      }
+
+      .btn25 {
+        font-family:'font1';
+        background: #123456;
+        position: absolute;
+        z-index: 0;
+
+      }
+
+
+
+.btn3 {
+  font-family:'font1';
+  background: #C9FF30;
+  position: absolute;
+  top: 550px;
+  left: 5px;
+    z-index: 1;
+}
+
+    .btn31 {
+      font-family:'font1';
+      background: #C9FF30;
+      position: absolute;
+      top: 150px;
+      left: 5px;
+      z-index: 0;
+    }
+
+    .btn32 {
+      font-family:'font1';
+      background: #C9FF30;
+      position: absolute;
+      top: 350px;
+      left: 5px;
+      z-index: 0;
+    }
+
+    .btn33 {
+      font-family:'font1';
+      background: #C9FF30;
+      position: absolute;
+      top: 550px;
+      left: 5px;
+      z-index: 0;
+    }
+
+    .btn34 {
+      font-family:'font1';
+      background: #C9FF30;
+      position: absolute;
+      top: 750px;
+      left: 5px;
+      z-index: 0;
+    }
+
+    .btn35 {
+      font-family:'font1';
+      background: #123456;
+      position: absolute;
+      z-index: 0;
+
+    }
+
+.btn4 {
+  font-family:'font1';
+  background: #42FF30;
+  position: absolute;
+  top: 750px;
+  left: 5px;
+    z-index: 1;
+}
+
+    .btn41 {
+      font-family:'font1';
+      background: #42FF30;
+      position: absolute;
+      top: 150px;
+      left: 5px;
+      z-index: 0;
+    }
+
+    .btn42 {
+      font-family:'font1';
+      background: #42FF30;
+      position: absolute;
+      top: 350px;
+      left: 5px;
+      z-index: 0;
+    }
+
+    .btn43 {
+      font-family:'font1';
+      background: #42FF30;
+      position: absolute;
+      top: 550px;
+      left: 5px;
+      z-index: 0;
+    }
+
+    .btn44 {
+      font-family:'font1';
+      background: #42FF30;
+      position: absolute;
+      top: 750px;
+      left: 5px;
+      z-index: 0;
+    }
+
+    .btn45 {
+      font-family:'font1';
+      background: #123456;
+      position: absolute;
+      z-index: 0;
+
+    }
+
+.btn5 {
+  font-family:'font1';
+  background: #123456;
+  position: absolute;
+  top: 930px;
+  left: 5px;
+}
+
+.btn6 {
+  font-family:'font1';
+  background: #654321;
+  margin-top: 60px;
+}
+
+t1{
+  color: orange;
+  background-color: yellow;
+}
+
+body{
+  background-image: url(top2.jpg);
+}
+
+#pic1{
+  position: absolute;
+  top: 700px;
+  left: 900px;
+}
+
+#pic2{
+  position: absolute;
+  top: 100px;
+  left:1000px;
+}

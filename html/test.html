@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+  <html lang="ja">
+    <head>
+    <meta charset="UTF-8">
+    <title>Test02 JS⇒Pepper</title>
+    <link type="text/css" rel="stylesheet" href="./css/style2.css" />
+    <script src="/libs/qimessaging/1.0/qimessaging.js"></script>
+    <script>
+    var session = new QiSession();
+
+    /** TabletからPepper */
+    //関数群
+    function btn1() {
+      session.service("ALMemory").done(function (ALMemory) {
+        ALMemory.raiseEvent("test/fromJs5", "あか");
+      });
+    }
+
+    function btn2() {
+      session.service("ALMemory").done(function (ALMemory) {
+        ALMemory.raiseEvent("index/fromJs2", "き");
+      });
+    }
+
+    function btn3() {
+      session.service("ALMemory").done(function (ALMemory) {
+       ALMemory.raiseEvent("index/fromJs3", "あお");
+      });
+    }
+
+    function btn4() {
+      session.service("ALMemory").done(function (ALMemory) {
+       ALMemory.raiseEvent("index/fromJs4", "満足");
+      });
+    }
+    </script>
+    </head>
+
+  <body>
+
+    <t1>
+    <tr align="center">
+    <td valign="middle">システム制御情報工学科</td>
+
+
+    </t1>
+
+  </body>
+</html>

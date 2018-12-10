@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+  <html lang="ja">
+    <head>
+    <meta charset="UTF-8">
+    <title>Test02 JS⇒Pepper</title>
+    <link type="text/css" rel="stylesheet" href="./css/style.css" />
+    <script src="/libs/qimessaging/1.0/qimessaging.js"></script>
+    <script>
+    var session = new QiSession();
+
+    /** TabletからPepper */
+    //関数群
+    function btn1() {
+      session.service("ALMemory").done(function (ALMemory) {
+        ALMemory.raiseEvent("index/fromJs1", "あか");
+      });
+    }
+
+    function btn2() {
+      session.service("ALMemory").done(function (ALMemory) {
+        ALMemory.raiseEvent("index/fromJs2", "き");
+      });
+    }
+
+    function btn3() {
+      session.service("ALMemory").done(function (ALMemory) {
+       ALMemory.raiseEvent("index/fromJs3", "あお");
+      });
+    }
+
+    function btn4() {
+      session.service("ALMemory").done(function (ALMemory) {
+       ALMemory.raiseEvent("index/fromJs4", "満足");
+      });
+    }
+
+    function btn5() {
+      session.service("ALMemory").done(function (ALMemory) {
+       ALMemory.raiseEvent("index/fromJs5", "f");
+      });
+    }
+
+    function btn6() {
+      session.service("ALMemory").done(function (ALMemory) {
+       ALMemory.raiseEvent("index/fromJs6", "h");
+      });
+    }
+    </script>
+    </head>
+
+  <body>
+    <h1><img src="h_logo.jpg" alt="logo" width="auto" height="auto"></h1>
+    <button class="btn btn1" onclick="btn1();">機械システム工学科</button>
+    <button class="btn btn2" onclick="btn2();">電気情報工学科</button>
+    <button class="btn btn3" onclick="btn3();">システム制御情報工学科</button>
+    <button class="btn btn4" onclick="btn4();">物質化学工学科</button>
+  </body>
+  <body>
+    <button class="bbtn btn5" onclick="btn5();">終了</button>
+    <button class="bbtn btn6" onclick="btn6();">全学科</button>
+    <div><img id="pic1" alt="校舎" src="top.jpg"></div>
+  </body>
+</html>

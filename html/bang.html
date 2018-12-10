@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+  <html lang="ja">
+    <head>
+    <meta charset="UTF-8">
+    <title>Test02 JS⇒Pepper</title>
+    <link type="text/css" rel="stylesheet" href="./css/bang.css" />
+    <script src="/libs/qimessaging/1.0/qimessaging.js"></script>
+    <script>
+    var session = new QiSession();
+
+    /** TabletからPepper */
+    //関数群
+    function btn1(num) {
+        if(num==1){
+            document.getElementById("1").style.visibility="hidden";
+            document.getElementById("2").style.visibility="hidden";
+            document.getElementById("3").style.visibility="hidden";
+            document.getElementById("4").style.visibility="hidden";
+            document.getElementById("5").style.visibility="hidden";
+            document.getElementById("21").style.visibility="hidden";
+            document.getElementById("22").style.visibility="hidden";
+            document.getElementById("23").style.visibility="hidden";
+            document.getElementById("24").style.visibility="hidden";
+            document.getElementById("25").style.visibility="hidden";
+            document.getElementById("31").style.visibility="hidden";
+            document.getElementById("32").style.visibility="hidden";
+            document.getElementById("33").style.visibility="hidden";
+            document.getElementById("34").style.visibility="hidden";
+            document.getElementById("35").style.visibility="hidden";
+            document.getElementById("41").style.visibility="hidden";
+            document.getElementById("42").style.visibility="hidden";
+            document.getElementById("43").style.visibility="hidden";
+            document.getElementById("44").style.visibility="hidden";
+            document.getElementById("45").style.visibility="hidden";
+
+            document.getElementById("11").style.visibility="visible";
+            document.getElementById("12").style.visibility="visible";
+            document.getElementById("13").style.visibility="visible";
+            document.getElementById("14").style.visibility="visible";
+            document.getElementById("15").style.visibility="visible";
+        }
+    }
+
+    function btn11() {
+      session.service("ALMemory").done(function (ALMemory) {
+        ALMemory.raiseEvent("kikai/fromJs1", "とは");
+      });
+    }
+
+    function btn12() {
+      session.service("ALMemory").done(function (ALMemory) {
+        ALMemory.raiseEvent("kikai/fromJs2", "科目");
+      });
+    }
+
+    function btn13() {
+      session.service("ALMemory").done(function (ALMemory) {
+       ALMemory.raiseEvent("kikai/fromJs3", "実習");
+      });
+    }
+
+    function btn14() {
+      session.service("ALMemory").done(function (ALMemory) {
+       ALMemory.raiseEvent("kikai/fromJs4", "進学と就職");
+      });
+    }
+
+
+    function btn15() {
+      document.getElementById("11").style.visibility="hidden";
+      document.getElementById("12").style.visibility="hidden";
+      document.getElementById("13").style.visibility="hidden";
+      document.getElementById("14").style.visibility="hidden";
+      document.getElementById("15").style.visibility="hidden";
+
+      document.getElementById("1").style.visibility="visible";
+      document.getElementById("2").style.visibility="visible";
+      document.getElementById("3").style.visibility="visible";
+      document.getElementById("4").style.visibility="visible";
+      document.getElementById("5").style.visibility="visible";
+
+    }
+
+    function btn2() {
+      document.getElementById("1").style.visibility="hidden";
+      document.getElementById("2").style.visibility="hidden";
+      document.getElementById("3").style.visibility="hidden";
+      document.getElementById("4").style.visibility="hidden";
+      document.getElementById("5").style.visibility="hidden";
+      document.getElementById("11").style.visibility="hidden";
+      document.getElementById("12").style.visibility="hidden";
+      document.getElementById("13").style.visibility="hidden";
+      document.getElementById("14").style.visibility="hidden";
+      document.getElementById("15").style.visibility="hidden";
+      document.getElementById("31").style.visibility="hidden";
+      document.getElementById("32").style.visibility="hidden";
+      document.getElementById("33").style.visibility="hidden";
+      document.getElementById("34").style.visibility="hidden";
+      document.getElementById("35").style.visibility="hidden";
+      document.getElementById("41").style.visibility="hidden";
+      document.getElementById("42").style.visibility="hidden";
+      document.getElementById("43").style.visibility="hidden";
+      document.getElementById("44").style.visibility="hidden";
+      document.getElementById("45").style.visibility="hidden";
+
+      document.getElementById("21").style.visibility="visible";
+      document.getElementById("22").style.visibility="visible";
+      document.getElementById("23").style.visibility="visible";
+      document.getElementById("24").style.visibility="visible";
+      document.getElementById("25").style.visibility="visible";
+    }
+
+    function btn21() {
+      session.service("ALMemory").done(function (ALMemory) {
+        ALMemory.raiseEvent("denki/fromJs1", "とは");
+      });
+    }
+
+    function btn22() {
+      session.service("ALMemory").done(function (ALMemory) {
+        ALMemory.raiseEvent("denki/fromJs2", "科目");
+      });
+    }
+
+    function btn23() {
+      session.service("ALMemory").done(function (ALMemory) {
+       ALMemory.raiseEvent("denki/fromJs3", "実習");
+      });
+    }
+
+    function btn24() {
+      session.service("ALMemory").done(function (ALMemory) {
+       ALMemory.raiseEvent("denki/fromJs4", "進学と就職");
+      });
+    }
+
+    function btn25() {
+      document.getElementById("21").style.visibility="hidden";
+      document.getElementById("22").style.visibility="hidden";
+      document.getElementById("23").style.visibility="hidden";
+      document.getElementById("24").style.visibility="hidden";
+      document.getElementById("25").style.visibility="hidden";
+
+      document.getElementById("1").style.visibility="visible";
+      document.getElementById("2").style.visibility="visible";
+      document.getElementById("3").style.visibility="visible";
+      document.getElementById("4").style.visibility="visible";
+      document.getElementById("5").style.visibility="visible";
+
+    }
+
+
+    function btn3(num) {
+        if(num==1){
+            document.getElementById("1").style.visibility="hidden";
+            document.getElementById("2").style.visibility="hidden";
+            document.getElementById("3").style.visibility="hidden";
+            document.getElementById("4").style.visibility="hidden";
+            document.getElementById("5").style.visibility="hidden";
+            document.getElementById("21").style.visibility="hidden";
+            document.getElementById("22").style.visibility="hidden";
+            document.getElementById("23").style.visibility="hidden";
+            document.getElementById("24").style.visibility="hidden";
+            document.getElementById("25").style.visibility="hidden";
+            document.getElementById("41").style.visibility="hidden";
+            document.getElementById("42").style.visibility="hidden";
+            document.getElementById("43").style.visibility="hidden";
+            document.getElementById("44").style.visibility="hidden";
+            document.getElementById("45").style.visibility="hidden";
+
+            document.getElementById("31").style.visibility="visible";
+            document.getElementById("32").style.visibility="visible";
+            document.getElementById("33").style.visibility="visible";
+            document.getElementById("34").style.visibility="visible";
+            document.getElementById("35").style.visibility="visible";
+        }
+    }
+    function btn31() {
+      session.service("ALMemory").done(function (ALMemory) {
+        ALMemory.raiseEvent("seigyo/fromJs1", "とは");
+      });
+    }
+
+    function btn32() {
+      session.service("ALMemory").done(function (ALMemory) {
+        ALMemory.raiseEvent("seigyo/fromJs2", "科目");
+      });
+    }
+
+    function btn33() {
+      session.service("ALMemory").done(function (ALMemory) {
+       ALMemory.raiseEvent("seigyo/fromJs3", "実習");
+      });
+    }
+
+    function btn34() {
+      session.service("ALMemory").done(function (ALMemory) {
+       ALMemory.raiseEvent("seigyo/fromJs4", "進学と就職");
+      });
+    }
+
+
+        function btn35() {
+          document.getElementById("31").style.visibility="hidden";
+          document.getElementById("32").style.visibility="hidden";
+          document.getElementById("33").style.visibility="hidden";
+          document.getElementById("34").style.visibility="hidden";
+          document.getElementById("35").style.visibility="hidden";
+
+          document.getElementById("1").style.visibility="visible";
+          document.getElementById("2").style.visibility="visible";
+          document.getElementById("3").style.visibility="visible";
+          document.getElementById("4").style.visibility="visible";
+          document.getElementById("5").style.visibility="visible";
+
+        }
+
+    function btn4() {
+          document.getElementById("1").style.visibility="hidden";
+          document.getElementById("2").style.visibility="hidden";
+          document.getElementById("3").style.visibility="hidden";
+          document.getElementById("4").style.visibility="hidden";
+          document.getElementById("5").style.visibility="hidden";
+          document.getElementById("21").style.visibility="hidden";
+          document.getElementById("22").style.visibility="hidden";
+          document.getElementById("23").style.visibility="hidden";
+          document.getElementById("24").style.visibility="hidden";
+          document.getElementById("25").style.visibility="hidden";
+
+          document.getElementById("41").style.visibility="visible";
+          document.getElementById("42").style.visibility="visible";
+          document.getElementById("43").style.visibility="visible";
+          document.getElementById("44").style.visibility="visible";
+          document.getElementById("45").style.visibility="visible";
+    }
+
+    function btn41() {
+      session.service("ALMemory").done(function (ALMemory) {
+        ALMemory.raiseEvent("kagaku/fromJs1", "とは");
+      });
+    }
+
+    function btn42() {
+      session.service("ALMemory").done(function (ALMemory) {
+        ALMemory.raiseEvent("kagaku/fromJs2", "科目");
+      });
+    }
+
+    function btn43() {
+      session.service("ALMemory").done(function (ALMemory) {
+       ALMemory.raiseEvent("kagaku/fromJs3", "実習");
+      });
+    }
+
+    function btn44() {
+      session.service("ALMemory").done(function (ALMemory) {
+       ALMemory.raiseEvent("kagaku/fromJs4", "進学と就職");
+      });
+    }
+
+
+    function btn45() {
+      document.getElementById("41").style.visibility="hidden";
+      document.getElementById("42").style.visibility="hidden";
+      document.getElementById("43").style.visibility="hidden";
+      document.getElementById("44").style.visibility="hidden";
+      document.getElementById("45").style.visibility="hidden";
+
+      document.getElementById("1").style.visibility="visible";
+      document.getElementById("2").style.visibility="visible";
+      document.getElementById("3").style.visibility="visible";
+      document.getElementById("4").style.visibility="visible";
+      document.getElementById("5").style.visibility="visible";
+
+    }
+
+    function btn5() {
+      session.service("ALMemory").done(function (ALMemory) {
+       ALMemory.raiseEvent("index/fromJs5", "f");
+      });
+    }
+
+    function btn6() {
+      session.service("ALMemory").done(function (ALMemory) {
+       ALMemory.raiseEvent("index/fromJs630", "作者");
+      });
+    }
+
+    function btn7() {
+      session.service("ALMemory").done(function (ALMemory) {
+       ALMemory.raiseEvent("index/fromJs1102", "ウタ");
+      });
+    }
+
+
+
+    </script>
+    </head>
+
+  <body>
+    <h1><img src="h_logo.jpg" alt="logo" width="auto" height="auto"></h1>
+    <div id="630"><p class="ex"> 歓　迎　</p></div>
+    <div id="1"><button class="btn btn1" onclick="btn1(1);">機械システム工学科</button></div>
+        <div id="11"><button class="btn btn11" onclick="btn11();" >機械システム工学科とは</button></div>
+        <div id="12"><button class="btn btn12" onclick="btn12();" >学ぶ科目、分野</button></div>
+        <div id="13"><button class="btn btn13" onclick="btn13();" >融合科目</button></div>
+        <div id="14"><button class="btn btn14" onclick="btn14();" >進学、就職について</button></div>
+        <div id="15"><button class="bbtn btn15" onclick="btn15();" >戻る</button></div>
+
+    <div id="2"><button class="btn btn2" onclick="btn2();">電気情報工学科</button></div>
+        <div id="21"><button class="btn btn21" onclick="btn21();" >電気情報工学科とは</button></div>
+        <div id="22"><button class="btn btn22" onclick="btn22();" >学ぶ科目、分野</button></div>
+        <div id="23"><button class="btn btn23" onclick="btn23();" >実験と実習</button></div>
+        <div id="24"><button class="btn btn24" onclick="btn24();" >進学、就職について</button></div>
+        <div id="25"><button class="bbtn btn25" onclick="btn25();" >戻る</button></div>
+
+    <div id="3"><button class="btn btn3" onclick="btn3(1);">システム制御情報工学科</button></div>
+        <div id="31"><button class="btn btn31" onclick="btn31();" >システム制御情報工学科とは</button></div>
+        <div id="32"><button class="btn btn32" onclick="btn32();" >学ぶ科目、分野</button></div>
+        <div id="33"><button class="btn btn33" onclick="btn33();" >融合科目と実習</button></div>
+        <div id="34"><button class="btn btn34" onclick="btn34();" >進学と就職について</button></div>
+        <div id="35"><button class="bbtn btn35" onclick="btn35();" >戻る</button></div>
+
+    <div id="4"><button class="btn btn4" onclick="btn4();">物質化学工学科</button></div>
+        <div id="41"><button class="btn btn41" onclick="btn41();" >物質化学工学科とは</button></div>
+        <div id="42"><button class="btn btn42" onclick="btn42();" >学ぶ科目、分野</button></div>
+        <div id="43"><button class="btn btn43" onclick="btn43();" >実験とコース</button></div>
+        <div id="44"><button class="btn btn44" onclick="btn44();" >進学と就職について</button></div>
+        <div id="45"><button class="bbtn btn45" onclick="btn45();" >戻る</button></div>
+  </body>
+  <body>
+    <div id="5"><button class="bbtn btn5" onclick="btn5();">終了</button></div>
+    <div id="6"><button class="btnex" onclick="btn6();">作者</button></div>
+    <div id="7"><button class="btsong" onclick="btn7();">♪</button></div>
+
+    <div><img id="pic1" alt="校舎" src="top.jpg" ></div>
+    <div><img id="pic2" alt="logo2" src="emblem.jpg"> </div>
+  </body>
+</html>
